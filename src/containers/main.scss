@@ -1,0 +1,72 @@
+.main{
+    border: 1px solid rgba(223, 224, 235, 1) ;
+    width: 96%;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.all_tickets{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    .ticket_right{
+        display: flex;
+        margin-right: 35px;
+        p{
+            margin-left: 30px;
+        }
+    }
+}
+.title_box{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(223, 224, 235, 1);
+    padding: 10px 15px;
+    font-size: 12px;
+    .details{
+        width: 40%;
+        display: flex;
+        align-items: center;
+        img{
+            border-radius: 50%;
+            margin-right: 30px;
+        }
+    }
+    .costumers{
+        width: 20%;
+    }
+    .date{
+        width: 20%;
+    }
+    .priority{
+        width: 20%;
+        .dot_icon{
+            float: right;
+            margin-right: 30px;
+        }
+    }
+}
+.title__box--hover:hover{
+    background-color: rgb(204, 230, 238);
+    transition: all ease 1s;
+    cursor: pointer;
+}
+.as_btn{
+    padding: 5px 10px;
+    border-radius: 20px;
+    
+    color: #fff;
+
+}
+.low{
+    background-color: rgb(130, 130, 65);
+    
+}
+.high{
+    background-color: red;
+}
+.normal{
+    background-color: blue;
+}

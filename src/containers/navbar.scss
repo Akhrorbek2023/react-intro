@@ -1,0 +1,25 @@
+.navbar{
+    width: 76vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 20px;
+    .navbar__right{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            border-radius: 50%;
+            border: 1px dotted rgba(223, 224, 235, 0.4);
+        }
+        .not{
+            margin-left: 20px;
+            color: rgba(223, 224, 235, 1);
+        }
+        p{
+            margin-left: 20px;
+            border-left: 2px solid rgba(223, 224, 235, 1);
+            padding-left: 10px;
+        }
+    }
+}
