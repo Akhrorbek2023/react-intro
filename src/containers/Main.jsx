@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faSortAmountUp } from "@fortawesome/free-solid-svg-icons"
 import { faFilter } from "@fortawesome/free-solid-svg-icons"
 import {faEllipsisV} from "@fortawesome/free-solid-svg-icons"
+import {faSortDown} from "@fortawesome/free-solid-svg-icons"
+import {faChevronLeft} from "@fortawesome/free-solid-svg-icons"
+import {faChevronRight} from "@fortawesome/free-solid-svg-icons"
 import Tom from "../assets/images/tom_cruise.jpg"
 import Mat from "../assets/images/Matt Damon.jpg"
 import Robert from "../assets/images/01.jpg"
@@ -22,8 +25,8 @@ const Main = ()=>{
            <div className="all_tickets">
             <h3>All tickets</h3>
             <div className="ticket_right">
-                <p><FontAwesomeIcon icon={faSortAmountUp} /> Sort</p>
-                <p><FontAwesomeIcon icon={faFilter} /> Filter</p>
+                <p><span><FontAwesomeIcon icon={faSortAmountUp} /></span> Sort</p>
+                <p><span><FontAwesomeIcon icon={faFilter} /></span> Filter</p>
             </div>
            </div>
            <div className="title_box">
@@ -167,6 +170,14 @@ const Main = ()=>{
                     <span className="as_btn normal">NORMAL</span>
                     <span className="dot_icon"><FontAwesomeIcon icon={faEllipsisV} /></span>
                 </div>
+            </div>
+            <div className="footer">
+                <span className="footer_span">Row per pages:<span className="num_icon">8 <FontAwesomeIcon icon={faSortDown} /></span></span>
+                <span className="footer_span">1-8 of 1240</span>
+                <span className="footer_span">
+                    <span className="footer_icon"><FontAwesomeIcon icon={faChevronLeft} /></span>   
+                    <span className="footer_icon"><FontAwesomeIcon icon={faChevronRight} /></span>
+                </span>
             </div>
         </div>
     )

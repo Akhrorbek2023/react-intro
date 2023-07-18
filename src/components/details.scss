@@ -1,0 +1,50 @@
+.flex_details , .row_box{
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+.details_box{
+    border: 1px solid rgba(223, 224, 235, 1);
+    width: 48%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #fff;
+    .flex_details , .group , .row_box{
+        padding: 0 20px;
+        height: 50px;
+        
+    }
+    a{
+        color: rgb(52, 52, 192);
+        font-weight: 300;
+    }
+}
+
+
+.row_box-border{
+    border-top: 2px solid rgba(223, 224, 235, 1);
+}
+.not_fill{
+    background-color: #fff;
+}
+.row_box-btn{
+    border-radius: 3px;
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 7px;
+}
+.yellov{
+    background-color: rgb(169, 169, 10);
+}
+.green{
+    background-color: green;
+}
+.default{
+    background-color: lightgrey;
+}
+.row_box-plus{
+    background-color: lightgrey;
+    padding: 2px 7px;
+    border-radius: 3px;
+    
+}

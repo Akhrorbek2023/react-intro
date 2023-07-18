@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Profile from "../assets/images/icons/profile_pic.png"
 import { faBell } from "@fortawesome/free-solid-svg-icons";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-const Navbar = ()=>{
+const OverviewNavbar = ()=>{
     return(  
         <div className="navbar">
             <div className="navbar__left">
-                 <h2>Tickets</h2>
+                 <h2>Overview</h2>
             </div>
             <div className="navbar__right">
                 <div className="not">
@@ -24,4 +24,4 @@ const Navbar = ()=>{
     )
 }
 
-export default Navbar
+export default OverviewNavbar

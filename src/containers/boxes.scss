@@ -1,0 +1,22 @@
+.box_holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    .box_item{
+        width: 20%;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px 30px;
+        border: 1px solid rgba(223, 224, 235, 1);
+        background-color: #fff;
+        cursor: pointer;
+        h3{
+            font-size: 20px;
+        }
+    }
+    .box_item:hover{
+        border: 1px solid rgb(57, 57, 231);
+        color: rgb(57, 57, 231);
+    }
+}
