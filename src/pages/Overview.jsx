@@ -1,4 +1,4 @@
-import Sidebar from "../containers/Sidebar"
+
 
 
 
@@ -10,15 +10,12 @@ import Footer from "../containers/Footer"
 
 const Overview = ()=>{
     return (
-        <div className="Overview">
-            <Sidebar/>
             <div className="overview_content">
                 <OverviewNavbar/>
                 <Boxes/>
                 <Trends/>
                 <Footer/>
             </div>
-        </div>
     )
 }
 

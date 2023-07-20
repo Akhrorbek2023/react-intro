@@ -9,6 +9,12 @@
     box-sizing: border-box;
     border-radius: 10px;
     background-color: #fff;
+    .row_box{
+        cursor: pointer;
+    }
+    .row_box:hover{
+        background-color: rgb(239, 239, 239);
+    }
     .flex_details , .group , .row_box{
         padding: 0 20px;
         height: 50px;

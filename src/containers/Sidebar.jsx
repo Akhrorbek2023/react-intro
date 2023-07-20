@@ -8,6 +8,10 @@ import Agent from "../assets/images/icons/agent.svg"
 import Article from "../assets/images/icons/article.svg"
 import Setting from "../assets/images/icons/setting.svg"
 import Sub from "../assets/images/icons/sub.svg"
+import { Link } from "react-router-dom"
+import Overview from "../pages/Overview"
+
+import Tickets from "../pages/Tickets"
 
 
 
@@ -15,18 +19,24 @@ import Sub from "../assets/images/icons/sub.svg"
 const Sidebar = ()=>{
     return(
         <div className="sidebar">
+            <a href={"/"}>
             <div className="btn__title">
                 <img src={Logo} alt="" />
                 <a href="#">Dashboard Kit</a>
             </div>
+            </a>
+            <Link to={"./Overview"}>
             <div className="btn">
                 <img src={Chart} alt="" /> 
                 <button> Overview</button>
             </div>
-            <div className="btn">
+            </Link>
+           <Link to={"./Tickets"}>
+           <div className="btn">
                 <img src={Ticket} alt="" /> 
                 <button> Ticket</button>
             </div>
+           </Link>
             <div className="btn">
             <img src={Ideas} alt="" />
                 <button>  Ideas</button>
